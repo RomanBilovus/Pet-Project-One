@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color:#000000;
+    background: url(dog.jpg) no-repeat center;
+}
+
+.nav {
+    margin: 5px 10px;
+    text-align: right;
+    text-transform:uppercase;
+}
+
+.nav_link {
+    padding: 0 20px; 
+    color:#000000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main {  
+    margin: 0 20px;
+    margin-top: 25%;
+    text-align: right;
+    text-transform:uppercase; 
+}
+
+.main_title {  
+    margin-bottom: 0;
+    font-size: 71px;
+}
+
+.main_subtitle {
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.text {
+    float:right;
+    margin: 5px 20px;
+    text-align: right;
+    width: 450px;
+}
+
+.container-btn {
+    margin-top: 150px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.btn {
+    width: 45px;
+    height: 20px;
+    margin: 0 auto 0 10;
+    font-weight: 700;
+    padding: 1px 10px;
+    color: #EBEDEC;
+    background: #007ACC;
+    text-decoration: none ;
+    text-transform:uppercase ;
+    transition: border 0.2s linear; 
+}
+
+.btn:hover {
+    border: 1px solid #007ACC;
+}
