@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+:root {
+  --text-color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url(../img/smart-dog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 700px;
+  margin: 0 0 0 auto;
+  padding: 10px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+header nav ul li img {
+  width: 30px;
+}
+
+article {
+  text-align: right;
+  margin: 400px 0 auto 0;
+  padding-right: 40px;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.button {
+  box-shadow: inset 0px -3px 7px 0px #29bbff;
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  background-color: #2dabf9;
+  border: 1px solid #0b0e07;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666;
+  text-transform: uppercase;
+}
+.button:hover {
+  background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  background-color: #0688fa;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
